@@ -1,0 +1,48 @@
+Domain : Entertainment
+
+Technology Used:  Spark Core
+
+Group Lens Research has collected and made available 
+rating data sets from the Movie Lens web site. The data 
+sets were collected over various periods of time having 
+movies ratings & reviews, both target audiences and 
+public reviews to be analyzed for users’ ratings, based on 
+ages, occupations etc, so the movie makers can have 
+better understanding about the viewers’ choice 
+expectations which in turn is beneficial for marketing of 
+their movies.
+
+Dataset available in link: 
+http://files.grouplens.org/datasets/movielens/ml1m.zip 
+
+Comprises of 3 .dat files:
+movies.dat comprises of data in “MovieID::Title::Genres” format.
+ratings.dat comprises of data in “UserID::MovieID::Rating::Timestamp” format.
+users.dat comprises of data in “UserID::Gender::Age::Occupation::Zip-code” format.
+
+data Snapshot:
+Movies.dat:
+MovieID::Title::Genres
+1::Toy Story (1995)::Animation|Children's|Comedy
+2::Jumanji (1995)::Adventure|Children's|Fantasy
+3::Grumpier Old Men (1995)::Comedy|Romance
+4::Waiting to Exhale (1995)::Comedy|Drama
+
+ratings.dat
+UserID::MovieID::Rating::Timestamp
+1::1193::5::978300760
+1::661::3::978302109
+1::914::3::978301968
+1::3408::4::978300275
+1::2355::5::978824291
+1::1197::3::978302268
+
+users.dat
+UserID::Gender::Age::Occupation::Zip-code
+1::F::1::10::48067
+2::M::56::16::70072
+3::M::25::15::55117
+4::M::45::7::02460
+5::M::25::20::55455
+6::F::50::9::55117
+7::M::35::1::06810
