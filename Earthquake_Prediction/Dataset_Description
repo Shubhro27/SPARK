@@ -1,0 +1,38 @@
+Disaster Management and Recovery:
+design a Real-Time Earthquake Detection Model to send lifesaving alerts, which should improve its machine learning to provide near real-time computation results. We will use the dataset to obtain a ROC (Receiver Operating Characteristic) value using Machine Learning in Apache Spark
+
+Data is present in a xls file i.e. data.xls
+
+File comprises following fields:
+I.   Classification Index	IX.  First Activity Time
+II.  First Activity Time	X.   Time Taken
+III. Time Taken		XI.  Acceleration
+IV.  Acceleration		XII. Building Strength
+V.   Building Strength	XIII.Velocity
+VI.  Velocity		XIV. Sa
+VII. Sa			XV.  Sd
+VIII.Sd
+
+Where,
+(II-VIII) are features of primary wave and (IX-XV) are features of secondary 
+wave.
+(XIV and XV) i.e. Sa and Sd of secondary wave can have NULL values.
+
+Data Snapshot:
+Classification Index,First Activity Time,Time Taken,Acceleration,Building Strength,Velocity,Sa,Sd,First Activity Time,Time Taken,Acceleration,Building Strength,Velocity,Sa,Sd
+
+0,3,11,14,19,39,42,55,64,67,73,75,76,80,83
+
+0,3,6,17,27,35,40,57,63,69,73,74,76,81,103
+
+0,4,6,15,21,35,40,57,63,67,73,74,77,80,83
+
+0,5,6,15,22,36,41,47,66,67,72,74,76,80,83
+
+0,2,6,16,22,36,40,54,63,67,73,75,76,80,83
+
+0,2,6,14,20,37,41,47,64,67,73,74,76,82,83
+
+0,1,6,14,22,36,42,49,64,67,72,74,77,80,83
+
+0,1,6,17,19,39,42,53,64,67,73,74,76,80,83
